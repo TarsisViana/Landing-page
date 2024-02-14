@@ -136,3 +136,57 @@ p{
   margin-top: 0.5rem;
   color:rgb(117, 120, 131)
 }
+
+/* Quote part */
+
+.quote{
+  background-color: #E5E7EB;
+  padding: 5rem 0;
+  
+}
+.quote-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#quote-text{
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+#quote-citation{
+  font-size: 1.5rem;
+  color: #1F2937;
+  text-align: right;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+/* CAll to action */
+
+.cta-background{
+  width: 800px;
+  border-radius: 8px;
+  background-color: #3882F6;
+  margin: 5rem auto;
+  padding: 3rem 8rem;
+}
+.cta-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+#cta-header{
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+#cta-body{
+  color: #ffffff;
+}
+#cta-button{
+  border: 2px solid white;
+}
