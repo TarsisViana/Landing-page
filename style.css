@@ -4,16 +4,11 @@ html{
 body{
   padding: 0;
   margin: 0;
-  display: flex;
-  
-
 }
 
 .container-hh{
   display: flex;
   flex-direction: column;
-  padding: 0;
-  flex: 1;
 }
 
 .container-hh, .footer{
@@ -21,18 +16,21 @@ body{
 }
 
 .header{
-  display: flex;
   padding: 1rem 0;
+  margin: 0 auto;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: 0 20rem;
 }
 
 #logo{
   font-size: 24px;
   color: #F9FAF8;
   font-weight: bold;
-  margin: 0;
-  flex: 1 auto;
+  margin: 0 1rem;
+  width: 500px;
 }
 
 #header-links{
@@ -50,7 +48,7 @@ a{
 
 .hero{
   display: flex;
-  margin: 5rem 20rem;
+  margin: 5rem auto;
   gap: 1rem;
 }
 .statement{
@@ -89,4 +87,12 @@ p{
   padding: 0 8rem;
   justify-content: center;
   align-items: center;
+}
+
+/* this is the Info section */
+
+.info-wrapper{
+  display: flex;
+  margin: 0 20rem;
+  flex-direction: column;
 }
